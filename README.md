@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-  1. [Class Definition](#class-definition)
+  1. [Class definition](#class-definition)
   1. [Usage] (#usage)
 
 ##Class definition
@@ -51,7 +51,7 @@ class Fibonacci{
 }
   ```
 
-##How to instantiate the class
+##Example of usage the class fibonacci 
 
 ``` javascript
 Fibonacci.print()
