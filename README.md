@@ -3,9 +3,9 @@
 ## Table of Contents
 
   1. [Class Definition](#class-definition)
-  1. Usage (#usage)
+  1. [Usage] (#usage)
 
-##class-definition
+##Class definition
 
 ``` javascript
 
@@ -51,6 +51,8 @@ class Fibonacci{
 }
   ```
 
-##usage
+##How to instantiate the class
 
+``` javascript
 Fibonacci.print()
+  ```
