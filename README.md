@@ -51,7 +51,7 @@ class Fibonacci{
 }
   ```
 
-##Usage the class fibonacci 
+##Usage
 
 ``` javascript
 Fibonacci.print()
