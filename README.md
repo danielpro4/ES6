@@ -1,5 +1,7 @@
 # ES6
 
+![daniel](https://lh3.googleusercontent.com/-oT20EAIP6zI/AAAAAAAAAAI/AAAAAAAAAAA/K1bYEZIyw2s/mo/photo.jpg?sz=46)
+
 ## Table of Contents
 
   1. [Class definition](#class-definition)
