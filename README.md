@@ -1,4 +1,4 @@
-# ES6
+# Fibonacci With ES6
 
 ![daniel](https://lh3.googleusercontent.com/-oT20EAIP6zI/AAAAAAAAAAI/AAAAAAAAAAA/K1bYEZIyw2s/mo/photo.jpg?sz=46)
 
@@ -40,11 +40,11 @@ class Fibonacci{
         return this.execute(number-2) + this.execute(number-1);
     }
 
-    static print(){
+    static print(value){
         let res = '';
         let fibo = Fibonacci.instance;
 
-        for (let i = 0; i < 10; i++){
+        for (let i = 0; i < value; i++){
             res += `Fibonacci(${i}) = ${fibo.execute(i)} \n`;
         }
 
@@ -56,5 +56,5 @@ class Fibonacci{
 ##Usage
 
 ``` javascript
-Fibonacci.print()
+Fibonacci.print(10)
   ```
