@@ -27,11 +27,11 @@ class Fibonacci{
         return this.execute(number-2) + this.execute(number-1);
     }
 
-    static print(){
+    static print(value = 10){
         let res = '';
         let fibo = Fibonacci.instance;
 
-        for (let i = 0; i < 10; i++){
+        for (let i = 0; i < value; i++){
             res += `Fibonacci(${i}) = ${fibo.execute(i)} \n`;
         }
 
